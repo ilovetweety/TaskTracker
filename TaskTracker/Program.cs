@@ -8,5 +8,7 @@ var input = Console.ReadLine();
 
 if (input == "2")
 {
-    Console.WriteLine("Replace this with your About implementation.");
+    Console.WriteLine("Name: Donald Choe");
+    Console.WriteLine("github Username: ilovetweety");
+    Console.WriteLine(DateTime.Now);
 }
