@@ -23,19 +23,12 @@ internal class Program
             {
 
                 case 1:
-                    TaskItem taskOne = new();
+                    TaskItem taskOne = new("Clean the chicken coop");
                  
-                    taskOne.Title = "Clean the chicken coop";
-                    
-                    TaskItem taskTwo = new();
-                  
-                    taskTwo.Title = "Finish covert px to rem";
+                    TaskItem taskTwo = new("Finish covert px to rem");
 
-                    
-                    TaskItem taskThree = new();
-                   
-                    taskThree.Title = "Grade week 3 labs";
-
+                    TaskItem taskThree = new("Grade week 3 labs");
+                
                     List<TaskItem> taskItems = [];
 
                     taskItems.Add(taskOne);
