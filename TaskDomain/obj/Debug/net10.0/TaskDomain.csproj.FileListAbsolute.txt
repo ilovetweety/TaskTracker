@@ -1,0 +1,12 @@
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\bin\Debug\net10.0\TaskDomain.deps.json
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\bin\Debug\net10.0\TaskDomain.dll
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\bin\Debug\net10.0\TaskDomain.pdb
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.AssemblyInfoInputs.cache
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.AssemblyInfo.cs
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.csproj.CoreCompileInputs.cache
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.sourcelink.json
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.dll
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\refint\TaskDomain.dll
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\TaskDomain.pdb
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskDomain\obj\Debug\net10.0\ref\TaskDomain.dll

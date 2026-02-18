@@ -27,3 +27,7 @@ C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0
 C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0\refint\TaskTracker.dll
 C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTracker.genruntimeconfig.cache
 C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0\ref\TaskTracker.dll
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTracker.csproj.AssemblyReference.cache
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\bin\Debug\net10.0\TaskDomain.dll
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\bin\Debug\net10.0\TaskDomain.pdb
+C:\Users\tweet\OneDrive\Desktop\CSC205\TaskTracker\TaskTracker\obj\Debug\net10.0\TaskTrac.2CCAFB19.Up2Date
