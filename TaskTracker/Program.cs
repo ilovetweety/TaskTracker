@@ -1,20 +1,26 @@
 
 using System.Collections;
+using TaskDomain;
+using TaskTracker;
 using TaskTracker.TaskDomain;
+
 
 
 internal class Program
 {
     private static void Main(string[] args)
     {
+        
         var shouldContinue = true;
 
         do
         {
             Console.WriteLine("Welcome to TaskTracker!");
-            Console.WriteLine("1. List Tasks");
-            Console.WriteLine("2. About");
-            Console.WriteLine("3. Exit");
+            
+            foreach (var item in Enum.GetValues<MainMenu>())
+{
+            Console.WriteLine($"{(int)item}. {item}");
+}
             Console.Write("Choose an option: ");
 
             int.TryParse(Console.ReadLine(), null, out int input);
@@ -22,28 +28,9 @@ internal class Program
             switch (input)
             {
 
-                case 1:
-                    TaskItem taskOne = new("Clean the chicken coop");
-                 
-                    TaskItem taskTwo = new("Finish covert px to rem");
-
-                    TaskItem taskThree = new("Grade week 3 labs");
-                
-                    List<TaskItem> taskItems = [];
-
-                    taskItems.Add(taskOne);
-                    taskItems.Add(taskTwo);
-                    taskItems.Add(taskThree);
-
-                    foreach (var item in taskItems)
-                    {
-                        
-                        Console.WriteLine($"{item.Id}: {item.Title}");
-                    }
+                case (int)MainMenu.ListTasks:
                     
-                    Console.WriteLine(taskItems);
-                    Console.WriteLine(TaskItem.TotalCount);
-
+                    
                                       
                     //list the tasks
                     //TODO: add a project reference by turning the domain into a class library
@@ -51,17 +38,27 @@ internal class Program
         
                     break;
 
-                case 2:
+                case (int)MainMenu.AddTask:
                     //AboutMeInformation();
+                    
+                    break;
+
+                case (int)MainMenu.DeleteTask:
+
+                           
+                    break;
+                case (int)MainMenu.UpdateTask:
 
                     break;
 
-                case 3:
+                case (int)MainMenu.Exit:
 
                     shouldContinue = false;
                     break;
 
+
                 default:
+                    shouldContinue = false;
 
                     break;
 
