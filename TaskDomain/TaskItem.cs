@@ -11,12 +11,13 @@ public class TaskItem
         get => _totalCount;
     }
 
-    public TaskItem()
+    public TaskItem(string title)
     {
-        ++_totalCount;
+        Id = ++_totalCount;
+        Title = title;
     }
     
-    public int Id { get; set; }
+    public int Id { get; }
     public string Title { get; set; } = String.Empty;
     public bool IsComplete { get; set; }
 }
